@@ -1,0 +1,20 @@
+.list {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 1px;
+}
+
+.listItem {
+  background-color: hsl(0, 0%, 93%);
+}
+
+input[type=text] {
+  all: unset;
+  width: 40%;
+}
+
+.done {
+  .listText {
+    text-decoration: line-through;
+    opacity: 30%;
+  }
+}
